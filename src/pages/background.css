@@ -1,0 +1,38 @@
+.moving-blocks {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.falling-star {
+    position: absolute;
+    background: linear-gradient(to left, #6120f8, rgba(255, 255, 255, 0));
+    border-radius: 50%;
+    width: 1px;
+    height: 2px;
+    transform-origin: left center;
+    transform: rotate(10deg);
+    box-shadow: 0 0 10px #6120f8;
+    opacity: 1;
+}
+
+@keyframes fall {
+    0% {
+        transform: translate(0, 0) scaleX(1) rotate(36deg);
+        width: 1px;
+        opacity: 1;
+    }
+
+    50% {
+        transform: translate(50vw, 50vh) scaleX(1) rotate(37deg);
+        width: 140px;
+        opacity: 0.2;
+    }
+
+    100% {
+        transform: translate(100vw, 100vh) scaleX(1) rotate(38deg);
+        width: 200px;
+        opacity: 0;
+    }
+}
