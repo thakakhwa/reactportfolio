@@ -166,6 +166,7 @@
   #resumebutton {
     animation: fadeInBrightness 1.5s cubic-bezier(0.4, 0, 0.2, 1);
     background: transparent;
+    background-color: #6120f883;
     border: 2px solid rgba(97, 32, 248, 0.721);
     backdrop-filter: blur(10px);
     color: white;

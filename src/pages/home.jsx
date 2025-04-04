@@ -19,7 +19,7 @@ const Home = () => {
         <h1 style={{ textAlign: "left", fontFamily: "sans-serif", fontStyle: "italic" }}>
           <span style={{ whiteSpace: "nowrap",fontWeight:"300" }}>Hello,</span>
           <br />
-          <span style={{ marginLeft: "20px",fontWeight:"300" }}>I am Zaid</span> {/* Reduced margin */}
+          <span style={{ marginLeft: "100px",fontWeight:"300" }}>I am Zaid</span> {/* Reduced margin */}
         </h1>
       </AnimatedElement>
 
