@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { FaLinkedin, FaGithub, FaMoon, FaSun } from "react-icons/fa";
-import "./navbar.css";
 import "./index.css"
 
 const Navbar = () => {
