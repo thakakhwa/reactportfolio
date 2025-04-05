@@ -1,7 +1,6 @@
 import React from "react";
 import AnimatedElement from "./animatedelement";
 import "./index.css";
-import "./contactme.css"
 
 const ContactMe = () => {
   return (

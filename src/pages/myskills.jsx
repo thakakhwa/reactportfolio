@@ -1,5 +1,6 @@
 import React from "react";
 import AnimatedElement from "./animatedelement";
+import "./index.css"
 
 const MySkills = () => {
   return (
